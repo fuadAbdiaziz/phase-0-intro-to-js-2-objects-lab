@@ -2,7 +2,7 @@
 const employee = { name: 'Sam' };
 
 function updateEmployeeWithKeyAndValue(employee, key, value) {
-  // Create a new object with the original key value pairs and the new key value pair
+  // Create a new object with the original key value pair and the new key value pair
   const newEmployee = { ...employee };
   newEmployee[key] = value;
   return newEmployee;
